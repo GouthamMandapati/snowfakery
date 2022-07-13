@@ -1,5 +1,5 @@
 - object: Account
-  count: 3
+  count: 2
   fields:
     name:
       fake: name
