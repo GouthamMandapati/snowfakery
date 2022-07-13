@@ -1,32 +1,5 @@
-- object: Person
+- object: Account
   count: 3
   fields:
     name:
       fake: name
-    age:
-      random_number:
-        min: 12
-        max: 95
-    dog:
-      - object: Animal
-        fields:
-          name:
-            fake: FirstName
-          species: canine
-          food:
-            - object: PetFood
-              fields:
-                name: Pets Choice
-                cost: $10
-
-    cat:
-      - object: Animal
-        fields:
-          name:
-            fake: FirstName
-          species: feline
-          food:
-            - object: PetFood
-              fields:
-                name: Pets Choice
-                cost: $1
